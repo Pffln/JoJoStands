@@ -16,7 +16,7 @@ Mods: {
 				LikeNPC: "{NPCName} действительно умеет играть в азартные игры!"
 				LoveNPC: Этот человек, {NPCName} жульничает так же хорошо, как и я! Играть в азартные игры с {NPCName} это все равно, что играть против самого себя!
 				DislikeNPC: "{NPCName} очень подозрительно относится ко мне, а мне не нравятся люди, которые относятся ко мне с подозрением."
-				HateNPC: "{NPCName} НЕ разрешается играть со мной в азартные игры. Этот человек довольно восприимчив в играх с высокими ставками. Уведи {NPCName} отсюда!"
+				HateNPC: "Я НЕ разрешу {NPCName} со мной в азартные игры. Этот человек довольно восприимчив в играх с высокими ставками. Уведи {NPCName} отсюда!"
 			}
 
 			HamonMaster: {
@@ -504,16 +504,6 @@ Mods: {
 				DisplayName: Бродячий Кот
 				Description: Стенд, рожденный неизвестным способом, но он сражается за вас!
 			}
-
-			TimeПропускаетConfusion: {
-				DisplayName: Время Было Пропущено?
-				Description: То, что вы только что видели, было вашим будущим "я".
-			}
-
-			ПропускаетpingTime: {
-				DisplayName: Пропуск Времени
-				Description: Время пропущено
-			}
 		}
 
 		Items: {
@@ -724,7 +714,7 @@ Mods: {
 				Tooltip:
 					'''
 					15% К урону от Стенда
-					50% К шансу Стенда нанести критический урон
+					50% К критическому урону Стенда
 					'''
 			}
 
@@ -1445,7 +1435,7 @@ Mods: {
 				DisplayName: Крейзи-Даймонд (1 Уровень)
 				Tooltip:
 					'''
-					ЛКМ, чтобы ударять врагов очень быстро,!
+					ЛКМ, чтобы ударять врагов очень быстро!
 					Спец. : Переключение в режим Восстановления
 					ЛКМ в режиме Восстановления для выполнения Восстановительного Барража и ПКМ, чтобы восстановить предмет до состояния компонентов.
 					Предметы Оранжевой редкости и выше не могут быть восстановлены до компонентов на этом уровне.
@@ -1577,48 +1567,48 @@ Mods: {
 					'''
 			}
 
-			EchoesAct0: {
-				DisplayName: Эхо (АКТ 0)
-				Tooltip:
+			EchoesACT0: {
+				// DisplayName: Echoes (ACT 0)
+				/* Tooltip:
 					'''
-					ЛКМ для... Броска?
-					Только для тех, у кого сильная воля.
-					'''
+					Left-click to... throw?
+					Only for those with the strongest of wills.
+					''' */
 			}
 
-			EchoesAct1: {
-				DisplayName: Эхо (АКТ 1)
-				Tooltip:
+			EchoesACT1: {
+				// DisplayName: Echoes (ACT 1)
+				/* Tooltip:
 					'''
-					ЛКМ, чтобы ударять врагов очень быстро!
-					ПКМ: Пометьте объект звуком!
-					Спец. : Дистанционное Управление
-					Пассив. : Атакует врагов, нанося урон с течением времени.
-					'''
+					Left-click to punch enemies at a really fast rate!
+					Right-click: Tag an entity with a sound!
+					Special: Remote Control
+					Passive: Attacking enemies applies SMACK to them, dealing damage over time.
+					''' */
 			}
 
-			EchoesAct2: {
-				DisplayName: Эхо (АКТ 2)
-				Tooltip:
+			EchoesACT2: {
+				// DisplayName: Echoes (ACT 2)
+				/* Tooltip:
 					'''
-					ЛКМ, чтобы ударять врагов очень быстро!
-					ПКМ: Прокрутите звуковые эффекты!
-					Держать ПКМ: Создайте ауру с помощью выбранного звукового эффекта!
-					Спец. : Дистанционное Управление
-					Второй Спец. : Переключает на предыдущий акт!
-					'''
+					Left-click to punch enemies at a really fast rate!
+					Right-click: Scroll through Sound Effects!
+					Hold right-click: Create an aura with the chosen Sound Effect!
+					Special: Remote Control
+					Second Special: Switch to previous acts!
+					''' */
 			}
 
-			EchoesAct3: {
-				DisplayName: Эхо (АКТ 3)
-				Tooltip:
+			EchoesACT3: {
+				// DisplayName: Echoes (ACT 3)
+				/* Tooltip:
 					'''
-					ЛКМ, чтобы ударять врагов очень быстро!
-					ПКМ: Три-Замри! Пригвоздите любого врага к земле!
-					Спец. : Три-Замри Барраж! Обычные атаки наносят три заморозки на короткое время!
-					Второй Спец. : Переключает на предыдущий акт!
-					Враги, помеченные Три-Замри, со временем получают урон.
-					'''
+					Left-click to punch enemies at a really fast rate!
+					Right-click: Three Freeze! Pin any enemy to the ground!
+					Special: Three Freeze Barrage! Normal attacks inflict Three Freeze for a short time!
+					Second Special: Switch to previous acts!
+					Enemies pinned by Three Freeze take damage over time.
+					''' */
 			}
 
 			EctoPearl: {
@@ -2359,7 +2349,7 @@ Mods: {
 				DisplayName: Стар-Платинум (1 Уровень)
 				Tooltip:
 					'''
-					Бьет врагов очень быстро,.
+					Бьет врагов очень быстро.
 					Используется в слоте для Стенда
 					'''
 			}
@@ -2450,7 +2440,7 @@ Mods: {
 				DisplayName: Стоун-Фри (1 Уровень)
 				Tooltip:
 					'''
-					Бьет врагов очень быстро,!
+					Бьет врагов очень быстро!
 					Используется в слоте для Стенда
 					'''
 			}
@@ -2505,7 +2495,7 @@ Mods: {
 				DisplayName: Зе-Хенд (1 Уровень)
 				Tooltip:
 					'''
-					Бьет врагов очень быстро,!
+					Бьет врагов очень быстро!
 					Используется в слоте для Стенда
 					'''
 			}
@@ -2551,7 +2541,7 @@ Mods: {
 				DisplayName: За-Вардо (1 Уровень)
 				Tooltip:
 					'''
-					Бьет врагов очень быстро,!
+					Бьет врагов очень быстро!
 					Используется в слоте для Стенда
 					'''
 			}
@@ -2560,7 +2550,7 @@ Mods: {
 				DisplayName: За-Вардо (2 Уровень)
 				Tooltip:
 					'''
-					Бьет врагов очень быстро,! 
+					Бьет врагов очень быстро! 
 					Спец. : Останавливает время на 2 секунды!
 					Используется в слоте для Стенда
 					'''
@@ -3197,7 +3187,7 @@ Mods: {
 				DisplayName: Вайт-Снейк (1 Уровень)
 				Tooltip:
 					'''
-					Бьет врагов очень быстро,!
+					Бьет врагов очень быстро!
 					Используется в слоте для Стенда
 					'''
 			}
@@ -3478,6 +3468,50 @@ Mods: {
 					При атаке врагов Стендом, 10% урона, наносимого врагам, передается другим, находящимся поблизости.
 					Передаваемый ущерб удваивается, и инфекция распространяется, если пользователь не получал урон в течении длительного времени.
 					Удары по врагам Стендом могут заразить их вирусом.
+					'''
+			}
+
+			EchoesAct0: {
+				DisplayName: Эхо (АКТ 0)
+				Tooltip:
+					'''
+					ЛКМ для... Броска?
+					Только для тех, у кого сильная воля.
+					'''
+			}
+
+			EchoesAct1: {
+				DisplayName: Эхо (АКТ 1)
+				Tooltip:
+					'''
+					ЛКМ, чтобы ударять врагов очень быстро!
+					ПКМ: Пометьте объект звуком!
+					Спец. : Дистанционное Управление
+					Пассив. : Атакует врагов, нанося урон с течением времени.
+					'''
+			}
+
+			EchoesAct2: {
+				DisplayName: Эхо (АКТ 2)
+				Tooltip:
+					'''
+					ЛКМ, чтобы ударять врагов очень быстро!
+					ПКМ: Прокрутите звуковые эффекты!
+					Держать ПКМ: Создайте ауру с помощью выбранного звукового эффекта!
+					Спец. : Дистанционное Управление
+					Второй Спец. : Переключает на предыдущий акт!
+					'''
+			}
+
+			EchoesAct3: {
+				DisplayName: Эхо (АКТ 3)
+				Tooltip:
+					'''
+					ЛКМ, чтобы ударять врагов очень быстро!
+					ПКМ: Три-Замри! Пригвоздите любого врага к земле!
+					Спец. : Три-Замри Барраж! Обычные атаки наносят три заморозки на короткое время!
+					Второй Спец. : Переключает на предыдущий акт!
+					Враги, помеченные Три-Замри, со временем получают урон.
 					'''
 			}
 		}
@@ -3821,7 +3855,6 @@ Mods: {
 			"Stand Out.DisplayName": Призыв Стенда
 			Pose.DisplayName: Поза
 			"Stand Auto Mode.DisplayName": Авто-Режим Стенда
-			"Second Спец. Ability.DisplayName": Вторая Спец. Способность
 		}
 
 		Conditions: {
@@ -3962,7 +3995,7 @@ Mods: {
 				None.Label: Нет
 				Roundabout.Label: РондаБаут
 				Caesar.Label: Цезарь
-				KonoMeAmareriMaroreriMerareMaro.Label: Коно-Ме-Амарери-Марорери-Мераре-Маро
+				KonoMeAmareriMaroreriMerareMaro.Label: Коно-Ме-Амарери-Марорери
 				LastTrainHome.Label: Ласт-Трейн-Хом
 				KingCrimsonNoNorioKu.Label: Кинг-Кримзон Но-Норио-Ку
 			}
@@ -4001,227 +4034,6 @@ Mods: {
 				Frequently.Label: Часто
 				Always.Label: Постоянно
 			}
-		}
-
-		Projectile: {
-			AerosmithBomb.DisplayName: Бомба Аэросмита
-			AirBubble.DisplayName: Воздушный Пузырь
-			ArmWormholeNail.DisplayName: Ноготь с Червоточиной
-			BadCompanyBomb.DisplayName: Бомба Бэд-Компани
-			BadCompanyTankRocket.DisplayName: Рокета Танка Бэд-Компани
-			BindingEmeraldString.DisplayName: Связывающая Изумрудная Нить
-			BombBubble.DisplayName: Пузырь-Бомба
-			BubbleBarrier.DisplayName: Пузырчатый Барьер
-			BubbleTrap.DisplayName: Пузырчатая Ловушка
-			CardProjectile.DisplayName: Карточка-Снаряд
-			ChargedClackerProjectile.DisplayName: Заряженный Щелкунчик-Снаряд
-			ClackerProjectile.DisplayName: Щелкунчик-Снаряд
-			ControllableBubble.DisplayName: Управляемый Пузырь
-			ControllableNail.DisplayName: Управляемый Ноготь
-			CrossfireHurricaneAnkh.DisplayName: Крест Огненного Урагана
-			CrystalShard.DisplayName: Кристалльный Осколок
-			CutterHamonBubble.DisplayName: Резак Для Хамона с Пузырьками
-			Disc.DisplayName: Disc
-			DollyDaggerBeam.DisplayName: Луч Долли-Дэггер
-			EchoesTailTip.DisplayName: Кончик Хвоста Эхо
-			Emerald.DisplayName: Изумруд
-			EmeraldStringPoint.DisplayName: Острие Изумрудной Нити
-			EmeraldStringPointConnector.DisplayName: Точка Соедининения Изумрудной Нити
-			ExplosiveBubble.DisplayName: Взрывоопасный Пузырь
-			FireAnkh.DisplayName: Огненный Крест
-			Fists.DisplayName: Кулаки
-			GoldExperienceBeam.DisplayName: Луч Голд-Экспириенс
-			HamonBloodBubble.DisplayName: Кровавый Пузырь Хамона
-			HamonBubble.DisplayName: Пузырь Хамона
-			HamonPunches.DisplayName: Удары Хамона
-			HamonSodaBottleCap.DisplayName: Крышка от Бутылки Содовой Хамона
-			HamonTequilaBottleCap.DisplayName: Крышка от Бутылки Текилы Хамона
-			HamonVinoBottleCap.DisplayName: Крышка от Бутылки Вина Хамона
-			HermitPurpleGrab.DisplayName: Захват Хермит-Перпл
-			HermitPurpleHook.DisplayName: Крюк Хермит-Перпл
-			HermitPurpleWhip.DisplayName: Кнут Хермит-Перпл
-			HighVelocityBubble.DisplayName: Высокоскоростной пузырь
-			InfiniteSpinNail.DisplayName: Бесконечно-Крутящийся Ноготь
-			KillerQueenBomb.DisplayName: Бомба Киллер-Квин
-			KnifeProjectile.DisplayName: Нож-Снаряд
-			MeltYourHeart.DisplayName: Растопи Свое Сердце
-			MeltYourHeartDrip.DisplayName: Растопи Свое Сердце, Капля
-			MinerLightning.DisplayName: Шахтерский Свет
-			GEButterfly.DisplayName: Бабочка Г-Э
-			GEFrog.DisplayName: Лягушка Г-Э
-			GEScorpion.DisplayName: Скорпион Г-Э
-			GETree.DisplayName: Дерево Г-Э
-			MatureStrayCatMinion.DisplayName: Прислужник Зрелого Бродячего Кота
-			NPCStandFists.DisplayName: Н П С Кулаки Стенда
-			SheerHeartAttack.DisplayName: Сердечный Приступ
-			ViralCrystal.DisplayName: Вирусный Кристалл
-			Nail.DisplayName: Ноготь
-			NailSlasher.DisplayName: Ногтевой Слэшер
-			StarPlatinumNPCStand.DisplayName: Стар-Платинум Н П С Стенд
-			WhitesnakeNPCStand.DisplayName: Вайт-Снейк Н П С Стенд
-			JonathanPet.DisplayName: Джонатана Питомец
-			SpeedWagonPet.DisplayName: Спидвагон Питомец
-			TuskAct1Pet.DisplayName: Таск Акт1 Питомец
-			TuskAct2Pet.DisplayName: Таск Акт2 Питомец
-			TuskAct3Pet.DisplayName: Таск Акт3 Питомец
-			PhantomMarker.DisplayName: Фантомный Маркер
-			AerosmithStandFinal.DisplayName: Аэросмит Стенд Финал.
-			AerosmithStandT1.DisplayName: Аэросмит Стенд У1
-			AerosmithStandT2.DisplayName: Аэросмит Стенд У2
-			AerosmithStandT3.DisplayName: Аэросмит Стенд У3
-			BadCompanyBomberPlane.DisplayName: Бэд-Компани Бомбардировщик
-			BadCompanyChopper.DisplayName: Бэд-Компани Чоппер
-			BadCompanySoldier.DisplayName: Бэд-Компани Солдат
-			BadCompanyTank.DisplayName: Бэд-Компани Танк
-			CrazyDiamondStandFinal.DisplayName: Крейзи-Даймонд Стенд Финал.
-			CrazyDiamondStandT1.DisplayName: Крейзи-Даймонд Стенд У1
-			CrazyDiamondStandT2.DisplayName: Крейзи-Даймонд Стенд У2
-			CrazyDiamondStandT3.DisplayName: Крейзи-Даймонд Стенд У3
-			CreamStandFinal.DisplayName: Крим Стенд Финал.
-			CreamStandT1.DisplayName: Крим Стенд У1
-			CreamStandT2.DisplayName: Крим Стенд У2
-			CreamStandT3.DisplayName: Крим Стенд У3
-			DashVoid.DisplayName: Метательная Пустота
-			ExposingCream.DisplayName: Раскрывающий Крим
-			Void.DisplayName: Пустота
-			EchoesStandFinal.DisplayName: Эхо Стенд Финал.
-			EchoesStandT1.DisplayName: Эхо Стенд У1
-			EchoesStandT2.DisplayName: Эхо Стенд У2
-			EchoesStandT3.DisplayName: Эхо Стенд У3
-			GoldExperienceStandFinal.DisplayName: Голд-Экспириенс Стенд Финал.
-			GoldExperienceStandT1.DisplayName: Голд-Экспириенс Стенд У1
-			GoldExperienceStandT2.DisplayName: Голд-Экспириенс Стенд У2
-			GoldExperienceStandT3.DisplayName: Голд-Экспириенс Стенд У3
-			GoldExperienceRequiemStand.DisplayName: Голд-Экспириенс Реквием Стенд
-			GratefulDeadStandFinal.DisplayName: Грейтфул-Дэд Стенд Финал.
-			GratefulDeadStandT1.DisplayName: Грейтфул-Дэд Стенд У1
-			GratefulDeadStandT2.DisplayName: Грейтфул-Дэд Стенд У2
-			GratefulDeadStandT3.DisplayName: Грейтфул-Дэд Стенд У3
-			HierophantGreenStandFinal.DisplayName: Хирофант-Грин Стенд Финал.
-			HierophantGreenStandT2.DisplayName: Хирофант-Грин Стенд У2
-			HierophantGreenStandT3.DisplayName: Хирофант-Грин Стенд У3
-			HierophantGreenStandT1.DisplayName: Хирофант-Грин Стенд У1
-			KillerQueenStandFinal.DisplayName: Киллер-Квин Стенд Финал.
-			KillerQueenStandT1.DisplayName: Киллер-Квин Стенд У1
-			KillerQueenStandT2.DisplayName: Киллер-Квин Стенд У2
-			KillerQueenStandT3.DisplayName: Киллер-Квин Стенд У3
-			KillerQueenBTDStand.DisplayName: Киллер-Квин Б-З-Д Стенд
-			KingClausStand.DisplayName: Король Клаус Стенд
-			KingCrimsonStandFinal.DisplayName: Кинг-Кримзон Стенд Финал.
-			KingCrimsonStandT1.DisplayName: Кинг-Кримзон Стенд У1
-			KingCrimsonStandT2.DisplayName: Кинг-Кримзон Стенд У2
-			KingCrimsonStandT3.DisplayName: Кинг-Кримзон Стенд У3
-			MagiciansRedStandFinal.DisplayName: Маджишенс-Ред Стенд Финал.
-			MagiciansRedStandT1.DisplayName: Маджишенс-Ред Стенд У1
-			MagiciansRedStandT2.DisplayName: Маджишенс-Ред Стенд У2
-			MagiciansRedStandT3.DisplayName: Маджишенс-Ред Стенд У3
-			SexPistolsStand.DisplayName: Сикс-Пистолс Стенд
-			SilverChariotAfterImage.DisplayName: Сильвер-Чариот Оставшееся изображение
-			SilverChariotStandFinal.DisplayName: Сильвер-Чариот Стенд Финал.
-			SilverChariotStandT1.DisplayName: Сильвер-Чариот Стенд У1
-			SilverChariotStandT2.DisplayName: Сильвер-Чариот Стенд У2
-			SilverChariotStandT3.DisplayName: Сильвер-Чариот Стенд У3
-			SoftAndWetStandFinal.DisplayName: Софт-н-Вет Стенд Финал.
-			SoftAndWetStandT1.DisplayName: Софт-н-Вет Стенд У1
-			SoftAndWetStandT2.DisplayName: Софт-н-Вет Стенд У2
-			SoftAndWetStandT3.DisplayName: Софт-н-Вет Стенд У3
-			SoftAndWetGoBeyondStand.DisplayName: Софт-н-Вет Гоу-Бейонд Стенд
-			StarOnTheTreeStand.DisplayName: Star On The Tree Стенд
-			StarPlatinumStandFinal.DisplayName: Стар-Платинум Стенд Финал.
-			StarPlatinumStandT1.DisplayName: Стар-Платинум Стенд У1
-			StarPlatinumStandT2.DisplayName: Стар-Платинум Стенд У2
-			StarPlatinumStandT3.DisplayName: Стар-Платинум Стенд У3
-			StickyFingersStandFinal.DisplayName: Стики-Фингерс Стенд Финал.
-			StickyFingersStandT1.DisplayName: Стики-Фингерс Стенд У1
-			StickyFingersStandT2.DisplayName: Стики-Фингерс Стенд У2
-			StickyFingersStandT3.DisplayName: Стики-Фингерс Стенд У3
-			StoneFreeStandFinal.DisplayName: Стоун-Фри Стенд Финал.
-			StoneFreeStandT1.DisplayName: Стоун-Фри Стенд У1
-			StoneFreeStandT2.DisplayName: Стоун-Фри Стенд У2
-			StoneFreeStandT3.DisplayName: Стоун-Фри Стенд У3
-			TestStandStand.DisplayName: Тестовый Стенд Стенд
-			TheHandStandFinal.DisplayName: Зе-Хенд Стенд Финал.
-			TheHandStandT1.DisplayName: Зе-Хенд Стенд У1
-			TheHandStandT2.DisplayName: Зе-Хенд Стенд У2
-			TheHandStandT3.DisplayName: Зе-Хенд Стенд У3
-			TheWorldStandFinal.DisplayName: За-Вардо Стенд Финал.
-			TheWorldStandT1.DisplayName: За-Вардо Стенд У1
-			TheWorldStandT2.DisplayName: За-Вардо Стенд У2
-			TheWorldStandT3.DisplayName: За-Вардо Стенд У3
-			TowerOfGrayStandFinal.DisplayName: Тавер-Оф-Грей Стенд Финал.
-			TowerOfGrayStandT1.DisplayName: Тавер-Оф-Грей Стенд У1
-			TowerOfGrayStandT2.DisplayName: Тавер-Оф-Грей Стенд У2
-			TowerOfGrayStandT3.DisplayName: Тавер-Оф-Грей Стенд У3
-			TuskAct4Stand.DisplayName: Таск Акт4 Стенд
-			WhitesnakeStandFinal.DisplayName: Вайт-Снейк Стенд Финал.
-			WhitesnakeStandT1.DisplayName: Вайт-Снейк Стенд У1
-			WhitesnakeStandT2.DisplayName: Вайт-Снейк Стенд У2
-			WhitesnakeStandT3.DisplayName: Вайт-Снейк Стенд У3
-			PlunderBubble.DisplayName: Пузырь Грабежа
-			PressurizedBlood.DisplayName: Кровь Под Давлением
-			RedBind.DisplayName: Красное Связывание
-			RoadRoller.DisplayName: Дорожный Каток
-			SPBullet.DisplayName: С-П Пуля
-			StandBullet.DisplayName: Пуля Стенда
-			StarFinger.DisplayName: Стар-Фингер
-			SteelBallProjectile.DisplayName: Стальной Шар-Снаряд
-			StickyFingersFistExtended.DisplayName: Стики-Фингерс Вытянутый кулак
-			StickyFingersTraversalZipper.DisplayName: Стики-Фингерс Обходная Застежка
-			StoneFreeBindString.DisplayName: Стоун-Фри Привязанная Нить
-			StoneFreeStringConnector.DisplayName: Стоун-Фри Соединитель Привязанной Нити
-			StoneFreeStringPoint.DisplayName: Стоун-Фри Точка Привязанной Нити
-			StoneFreeTiedTogetherString.DisplayName: Стоун-Фри Связанные Вместе Нитки
-			TinyBubble.DisplayName: Крошечный Пузырь
-			TrackerBubble.DisplayName: Пузырь Слежения
-			ViralArrow.DisplayName: Вирусная Стрела
-			ViralBeetleProjectile.DisplayName: Вирусный Жук-Объект
-			ViralBroadswordProjectile.DisplayName: Вирусный Меч-Объект
-			ViralCrystalProjectile.DisplayName: Вирусный Кристалл-Объект
-			ViralPearlProjectile.DisplayName: Вирусная Жемчужина-Объект
-			ViralStaffProjectile.DisplayName: Вирусный Посох-Снаряд
-			ViralWoodSharpnel.DisplayName: Вирусная Древесная Шрапнель
-			ViralYoYoProjectile.DisplayName: Вирусный Йо-Йо-Объект
-			WormholeNail.DisplayName: Ноготь с Червоточиной
-			Yosarrow.DisplayName: Йосарроу
-			AcidicBile.DisplayName: Кислотная Желчь
-			AcidVenomFlask.DisplayName: Флакон с Кислотной Желчью
-			AcidVenomFlaskGas.DisplayName: Флакон с Газом Кислотной Желчи
-			ChainedClawProjectile.DisplayName: Снаряд с Цепным Когтем
-			ChainedKunaiProjectile.DisplayName: Цепной Кунай-Объект
-			ChainedKunaiSwinging.DisplayName: Размахивающий Цепной Кунай
-			ExtendedZombieGrab.DisplayName: Захват Зомби
-			HamonizedFireworkProjectile.DisplayName: Фейерверк-Снаряд Хамона
-			HamonizedWaterBalloonProjectile.DisplayName: Снаряд Из Водяного Шара с Водой Хамона
-			HamonShockwaveSpike.DisplayName: Ударная Волна Хамона
-			JackKnife.DisplayName: Нож Джека
-			KnifeSlashes.DisplayName: Нож Режет
-			MetallicNunchucksProjectile.DisplayName: Металлические Нунчаки-Объект
-			MetallicNunchucksSwinging.DisplayName: Размахивающие Металлические Нунчаки
-			ChimeraSnake.DisplayName: Змея-Химера
-			WarriorZombie.DisplayName: Зомби-Гладиатор
-			DioPet.DisplayName: ДИО Питомец
-			ZeppeliPet.DisplayName: Зеппели Питомец
-			SilkPunches.DisplayName: Шелковые Удары
-			SpaceRipperStingyEyes.DisplayName: Колючие Глаза Космического Потрошителя
-			SunShackle.DisplayName: Солнцезащитные Кандалы
-			ThreadedGlovePunches.DisplayName: Удары Перчаткой
-			VampiricPunch.DisplayName: Вампирские Удары
-			VampiricSlash.DisplayName: Вампирские Рубящие Удары
-			VampiricVeinGrab.DisplayName: Вампирский Захват вены
-			VampiricVeinSpike.DisplayName: Вампирский Венозный Шип
-			ZeppeliHamonPunches.DisplayName: Удары Зеппели Хамоном
-		}
-
-		tiles: {
-			BloodForTheKingTile.MapEntry: Кровь За Короля
-			IWouldntLoseTile.MapEntry: Я Не Проиграю
-			OfficersRegretTile.MapEntry: Сожаление Офицера
-			QuietLifeTile.MapEntry: Спокойная Жизнь
-			RemixTableTile.MapEntry: Диджейский Стол
-			ShotintheDarkTile.MapEntry: Выстрел в Темноте
-			TarotTableTile.MapEntry: Стол Тарот
-			ViralMeteoriteTile.MapEntry: Вирусный Метеорит
-			ViralMusicBoxTile.MapEntry: Вирусная Музыкальная Шкатулка
 		}
 	}
 }
